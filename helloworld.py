@@ -3,6 +3,32 @@ import pandas as pd
 import numpy as np
 import plotly_express as px
 
+# core packages
+import streamlit as st
+import streamlit.components.v1 as stc
+
+# additional packages
+# Load EDA packages
+import pandas as pd
+
+# Data Viz Packages
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib
+
+
+# text cleaning packages
+import neattext as nt
+import neattext.functions as nfx
+
+
+# utils
+from collections import Counter
+from wordcloud import WordCloud
+import base64
+import time
+import re
+
 '''
 # Club and Nationality App
 
